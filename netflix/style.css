@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+.main {
+    background-image: url(images/bg..jpg);
+    background-size: max(1300px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+    background-position-x: center;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.60;
+    position: absolute;
+    top: 0%;
+
+}
+
+.btn {
+    margin-left: 55%;
+    background-color: red;
+    color: white;
+    height: 20px;
+    width: 60px;
+    padding: 8px 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    top: 25px;
+
+}
+
+.btn:hover {
+    background-color: rgb(190, 177, 177);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+
+}
+
+
+
+nav {
+    display: flex;
+   
+
+}
+
+nav img {
+    margin-left: 10%;
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    top: 25px;
+}
+
+.first {
+    font-family: 'Poppins', sans-serif;
+    height: calc(100% - 44px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffff;
+    position: relative;
+    gap: 12px;
+    padding: 0 23px;
+
+}
+
+.first> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.first> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.first> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+
+}
+
+.btn-btn {
+    background-color: red;
+    color: #ffff;
+    padding: 8px 35px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    border: none;
+}
+
+.btn-btn:hover {
+    background-color: rgb(190, 177, 177);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.red-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 401px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 401px;
+}
+
+section.one>div :nth-child(1) {
+    font-size: 43px;
+    font-weight: bolder;
+
+
+}
+
+section.one>div :nth-child(2) {
+    font-size: 25px;
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+
+    .first> :nth-child(1) {
+        font-size: 30px;
+    }
+
+    .first> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .first> :nth-child(3) {
+        font-size: 15px;
+    }
+
+    section.one>div :nth-child(1) {
+        text-align: center;
+        font-size: 30px;
+
+
+    }
+
+    section.one>div :nth-child(2) {
+        flex-direction: column;
+        text-align: center;
+        font-size: 18px;
+
+    }
+
+    .red-buttons {
+        flex-direction: column;
+        padding: 5px;
+
+    }
+
+    .main input {
+
+        padding: 2px 50px 5px 5px;
+
+    }
+
+    .one {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .secImg {
+        width: 400px;
+
+    }
+
+    .secImg video {
+        width: 400px;
+
+    }
+}
+
+ @media only screen and (max-width: 750px) {
+
+.one {
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 100%;
+}
+nav img{
+    width: 120px;
+}
+
+.secImg {
+    width: 400px;
+
+}
+
+.secImg video {
+    width: 400px;
+
+}
+
+.first> :nth-child(1) {
+    font-size: 25px;
+}
+
+.first> :nth-child(2) {
+    font-size: 20px;
+}
+
+.first> :nth-child(3) {
+    font-size: 15px;
+}
+
+section.one>div :nth-child(1) {
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+section.one>div :nth-child(2) {
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.red-buttons {
+    flex-direction: column;
+
+}
+
+.main input {
+
+    padding: 2px 30px 4px 4px;
+}
+} 
